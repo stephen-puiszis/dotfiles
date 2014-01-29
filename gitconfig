@@ -1,0 +1,8 @@
+[user]
+        user.name=stephen-puiszis
+        user.email=spuiszis@gmail.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = auto

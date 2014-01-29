@@ -1,0 +1,18 @@
+{
+  "auto_upgrade_last_run": null,
+  "installed_packages":
+  [
+    "Alignment",
+    "CoffeeScript",
+    "ColorPicker",
+    "ERB Insert and Toggle Commands",
+    "ERB Snippets",
+    "Markdown Preview",
+    "Package Control",
+    "PlainTasks",
+    "SCSS",
+    "SublimeREPL",
+    "Theme - Soda",
+    "Twitter Bootstrap Snippets"
+  ]
+}

@@ -7,9 +7,9 @@
 * mysql
 * postgres / PG App
 * xCode
+* rvm
 * chrome / firefox
 * photoshop
-
 
 ## Utilities
 * Dropbox
@@ -25,6 +25,3 @@
 * Rescue Time
 * Slack
 * Citrix
-* Pocket?
-
-

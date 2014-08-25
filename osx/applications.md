@@ -3,29 +3,25 @@
 ## Development
 * iterm 2
 * sublime text 2
-  * packages
-    *
 * zsh
 * mysql
-* postgres, PG App
+* postgres
 * xcode
 * rvm
 * bash scripts
 * git customizations
 
 ## Utilities
-* adium
 * alfred
 * bettersnap tool
 * chrome
   * bookmarks & settings
 * citrix
 * displaylink
+* dash
 * dropbox
 * evernote
 * fonts
-  * oswald
-  * tisaOT
 * flint
 * flux
 * garmin ANT agent
@@ -34,7 +30,6 @@
 * imageopti
 * isnap
 * itunes library
-  *
 * keynote
 * markdownlife
 * parallels access
@@ -47,6 +42,10 @@
     * ppt wireframing
 * photoshop
 * slack
+* spideroak
 * skype
+* UP 3d printing
 * utorrent
 * vagrant
+* write
+* wunderlist

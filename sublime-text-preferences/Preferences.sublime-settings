@@ -7,15 +7,10 @@
   "draw_indent_guides": false,
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
-  "font_face": "Monaco",
-  "font_size": 21.0,
+  "font_face": "Inconsolata-dz",
+  "font_size": 16.0,
   "highlight_line": true,
   "hot_exit": false,
-  "ignored_packages":
-  [
-    "Vintage",
-    "SublimeREPL"
-  ],
   "remember_open_files": false,
   "rulers":
   [

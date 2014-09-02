@@ -1,4 +1,6 @@
-# Environment Setup via Boxen
+# Environment Setup
+
+Before anything do this:
 
 - Install Xcode
 - Install Xcode command line tools (preferences > downloads)
@@ -16,20 +18,27 @@
 - Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 
 **Resources:**
-http://dean.io/setting-up-a-ruby-on-rails-development-environment-on-mavericks/
-https://gorails.com/setup/osx/10.9-mavericks
-http://jeffcohenonline.com/installing-rails
-http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx/ (Uses rbenv, not rvm)
+- http://dean.io/setting-up-a-ruby-on-rails-development-environment-on-mavericks/
+- https://gorails.com/setup/osx/10.9-mavericks
+- http://jeffcohenonline.com/installing-rails
+- http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx/ (Uses rbenv, not rvm)
+- http://www.computersnyou.com/2673/2013/10/install-ruby-rails-macos-x-mavericks-10-9-mysql-step-step/
+- http://mattzago.com/blog/2013/11/16/installing-rvm-on-mavericks
 
 ### Postgres Installation
 ``brew install postgresql``
 
 Alternatively, use the [Postgres app](http://postgresapp.com/)
 
-**Resources:**
-https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres
-http://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
-https://www.codefellows.org/blog/how-to-install-postgresql
+- https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres
+- http://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
+- https://www.codefellows.org/blog/how-to-install-postgresql
+
+### Mysql Installation
+``brew install mysql``
+
+- http://blog.joefallon.net/2013/10/install-mysql-on-mac-osx-using-homebrew/
+- http://dev.mysql.com/doc/refman/5.0/en/macosx-installation.html
 
 ### Setup Using Boxen
 Boxen might not play well with RVM or Homebrew. I've also had issues installing Postgres with it, there are workarounds to this like using the [Postgres app](http://postgresapp.com/). Visit the [Boxen Github Pages for a full setup guide](https://github.com/boxen/our-boxen)

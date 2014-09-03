@@ -3,19 +3,20 @@
 Before anything do this:
 
 - Install Xcode
-- Install Xcode command line tools (preferences > downloads)
+- Install Xcode command line tools (preferences > downloads) **Note: Don't install Ruby 1.9.3 before doing this, you might run into problems :(**
+``xcode-select --install``
 
-### Setup using Homebrew & RVM**
+### Shell
+Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
+
+### Ruby & Rails Installtion Using Homebrew & RVM**
 - Install [Homebrew](http://brew.sh/)
 - Verify Homebrew was installed properly using ``brew doctor``
-- Install Ruby via [RVM](http://rvm.io/rvm/install)
-- Verify Ruby and RVM was installed properly
-- Install SQLlite
+- Install [RVM](http://rvm.io/rvm/install)
+- Verify RVM was installed properly using ``rvm requirements``
+- Start Installing Rubies
 - Install Rails
 - Verify Rails working properly
-- Install Mysql
-- Install Postgres
-- Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 
 **Resources:**
 - http://dean.io/setting-up-a-ruby-on-rails-development-environment-on-mavericks/
@@ -24,6 +25,26 @@ Before anything do this:
 - http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx/ (Uses rbenv, not rvm)
 - http://www.computersnyou.com/2673/2013/10/install-ruby-rails-macos-x-mavericks-10-9-mysql-step-step/
 - http://mattzago.com/blog/2013/11/16/installing-rvm-on-mavericks
+
+### Setup Github
+```
+ssh-keygen -t rsa -C "g3dinua@gmail.com"
+
+#copy ssh key to github.com
+subl ~/.ssh/id_rsa.pub
+
+#test connection
+ssh -T git@github.com
+
+#set git config values
+git config --global user.name <naem>
+git config --global user.email <email>
+git config --global github.user <username>
+git config --global github.token <token>
+
+git config --global core.editor "subl -w"
+git config --global color.ui true
+```
 
 ### Postgres Installation
 ``brew install postgresql``

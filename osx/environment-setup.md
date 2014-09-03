@@ -28,7 +28,7 @@ Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 
 ### Setup Github
 ```
-ssh-keygen -t rsa -C "g3dinua@gmail.com"
+ssh-keygen -t rsa -C <email>
 
 #copy ssh key to github.com
 subl ~/.ssh/id_rsa.pub
@@ -49,6 +49,8 @@ git config --global color.ui true
 ### Postgres Installation
 ``brew install postgresql``
 
+And don't forget to update preferences
+
 Alternatively, use the [Postgres app](http://postgresapp.com/)
 
 - https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres
@@ -60,6 +62,13 @@ Alternatively, use the [Postgres app](http://postgresapp.com/)
 
 - http://blog.joefallon.net/2013/10/install-mysql-on-mac-osx-using-homebrew/
 - http://dev.mysql.com/doc/refman/5.0/en/macosx-installation.html
+
+### SQLite3 Installation
+
+``brew install sqlite``
+``gem install sqlite3``
+
+http://www.sqlite.org/download.html
 
 ### Setup Using Boxen
 Boxen might not play well with RVM or Homebrew. I've also had issues installing Postgres with it, there are workarounds to this like using the [Postgres app](http://postgresapp.com/). Visit the [Boxen Github Pages for a full setup guide](https://github.com/boxen/our-boxen)
@@ -84,3 +93,5 @@ Run the following command in terminal to install rails, press 'y' to overwrite a
 ``gem install rails``
 Check if Rails installed.
 ``rails -v``
+
+Inspired by this awesome environment setup guide: https://gist.github.com/g3d/2709563

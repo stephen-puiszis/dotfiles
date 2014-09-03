@@ -4,17 +4,29 @@ Before anything do this:
 
 - Install Xcode
 - Install Xcode command line tools (preferences > downloads) **Note: Don't install Ruby 1.9.3 before doing this, you might run into problems :(**
-``xcode-select --install``
+
+```
+xcode-select --install
+```
 
 ### Shell
 Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 
 ### Ruby & Rails Installtion Using Homebrew & RVM**
 - Install [Homebrew](http://brew.sh/)
-- Verify Homebrew was installed properly using ``brew doctor``
+- Verify Homebrew was installed properly using:
+```
+brew doctor
+```
 - Install [RVM](http://rvm.io/rvm/install)
-- Verify RVM was installed properly using ``rvm requirements``
-- Start Installing Rubies
+- Verify RVM was installed properly using:
+```
+rvm requirements
+```
+- Start Installing Rubies using:
+```
+rvm install <ruby version>
+``
 - Install Rails
 - Verify Rails working properly
 
@@ -46,6 +58,13 @@ git config --global core.editor "subl -w"
 git config --global color.ui true
 ```
 
+### Install Sublime Text
+
+- Import Preferences
+- Install Fonts
+- Import Custom Theme
+- Install Packages
+
 ### Postgres Installation
 ``brew install postgresql``
 
@@ -65,8 +84,9 @@ Alternatively, use the [Postgres app](http://postgresapp.com/)
 
 ### SQLite3 Installation
 
-``brew install sqlite``
-``gem install sqlite3``
+```
+brew install sqlite
+```
 
 http://www.sqlite.org/download.html
 

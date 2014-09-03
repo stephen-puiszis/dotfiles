@@ -12,14 +12,12 @@ xcode-select --install
 ### Shell
 Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 
-### Ruby & Rails Installtion Using Homebrew & RVM**
-- Install [Homebrew](http://brew.sh/)
-- Verify Homebrew was installed properly using:
+### Ruby & Rails Installtion Using Homebrew & RVM
+- Install [Homebrew](http://brew.sh/) and verify installation:
 ```
 brew doctor
 ```
-- Install [RVM](http://rvm.io/rvm/install)
-- Verify RVM was installed properly using:
+- Install [RVM](http://rvm.io/rvm/install) and verify installation:
 ```
 rvm requirements
 ```
@@ -27,8 +25,11 @@ rvm requirements
 ```
 rvm install <ruby version>
 ```
-- Install Rails
-- Verify Rails working properly
+- Install Rails amd verify installation
+```
+gem install rails
+rails -v
+```
 
 **Resources:**
 - http://dean.io/setting-up-a-ruby-on-rails-development-environment-on-mavericks/

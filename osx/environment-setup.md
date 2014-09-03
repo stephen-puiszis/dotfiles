@@ -5,7 +5,7 @@ Before anything do this:
 - Install Xcode
 - Install Xcode command line tools (preferences > downloads) **Note: Don't install Ruby 1.9.3 before doing this, you might run into problems :(**
 
-```
+```bash
 xcode-select --install
 ```
 
@@ -14,19 +14,19 @@ Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 
 ### Ruby & Rails Installtion Using Homebrew & RVM
 - Install [Homebrew](http://brew.sh/) and verify installation:
-```
+```bash
 brew doctor
 ```
 - Install [RVM](http://rvm.io/rvm/install) and verify installation:
-```
+```bash
 rvm requirements
 ```
 - Start Installing Rubies using:
-```
+```bash
 rvm install <ruby version>
 ```
 - Install Rails amd verify installation
-```
+```bash
 gem install rails
 rails -v
 ```
@@ -41,7 +41,7 @@ rails -v
 
 ### Setup Github
 
-```
+```bash
 ssh-keygen -t rsa -C <email>
 
 #copy ssh key to github.com
@@ -68,7 +68,9 @@ git config --global color.ui true
 - Install Packages
 
 ### Postgres Installation
-``brew install postgresql``
+```bash
+brew install postgresql
+```
 
 And don't forget to update preferences
 
@@ -79,14 +81,16 @@ Alternatively, use the [Postgres app](http://postgresapp.com/)
 - https://www.codefellows.org/blog/how-to-install-postgresql
 
 ### Mysql Installation
-``brew install mysql``
+```bash
+brew install mysql
+```
 
 - http://blog.joefallon.net/2013/10/install-mysql-on-mac-osx-using-homebrew/
 - http://dev.mysql.com/doc/refman/5.0/en/macosx-installation.html
 
 ### SQLite3 Installation
 
-```
+```bash
 brew install sqlite
 ```
 

@@ -65,7 +65,7 @@ git config --global color.ui true
 - Import Preferences
 - Install Fonts
 - Import Custom Theme
-- Install Packages
+- Install Packages ([link](https://sublime.wbond.net/installation))
 
 ### Postgres Installation
 ```bash

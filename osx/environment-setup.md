@@ -41,6 +41,8 @@ rails -v
 
 ### Setup Github
 
+- [Follow this Github Guide](https://help.github.com/articles/generating-ssh-keys)
+
 ```bash
 ssh-keygen -t rsa -C <email>
 

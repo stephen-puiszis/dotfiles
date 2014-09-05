@@ -62,6 +62,12 @@ git config --global core.editor "subl -w"
 git config --global color.ui true
 ```
 
+If you have issues authenticating after setting up SSH keys, it's likely because you have two-factor authentication enabled. [This blog post](http://olivierlacan.com/posts/why-is-git-https-not-working-on-github/) will help make things right (create and add an Oauth token in the Github admin).
+
+**Other Resources**
+- [Set up Git](https://help.github.com/articles/set-up-git)
+- [Caching your Github password in git](https://help.github.com/articles/caching-your-github-password-in-git)
+
 ### Install Sublime Text
 
 - Import Preferences

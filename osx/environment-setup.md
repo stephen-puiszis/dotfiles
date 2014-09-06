@@ -68,6 +68,10 @@ If you have issues authenticating after setting up SSH keys, it's likely because
 - [Set up Git](https://help.github.com/articles/set-up-git)
 - [Caching your Github password in git](https://help.github.com/articles/caching-your-github-password-in-git)
 
+### Setup Heroku Toolbelt
+
+https://toolbelt.heroku.com/
+
 ### Install Sublime Text
 
 - Import Preferences

@@ -38,6 +38,7 @@ rails -v
 - http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx/ (Uses rbenv, not rvm)
 - http://www.computersnyou.com/2673/2013/10/install-ruby-rails-macos-x-mavericks-10-9-mysql-step-step/
 - http://mattzago.com/blog/2013/11/16/installing-rvm-on-mavericks
+- **http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac**
 
 ### Setup Github
 

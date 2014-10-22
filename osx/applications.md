@@ -23,6 +23,8 @@
 - alfred
   - [Re-Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd-space) - disable spotlight shortcut
   - Enable at startup
+- atext
+  - setup shortcuts
 - bettersnap tool
   - Map shortcuts
 - chrome

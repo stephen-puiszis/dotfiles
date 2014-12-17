@@ -13,20 +13,8 @@
   - Time Machine
   - Network
     - Setup VPN
-- iterm 2
-  - import prefs
-- sublime text 2
-  - import prefs
-- zsh
-  - import dotfiles
-- mysql
-- postgres
-- rvm
-- bash scripts
-- homebrew
-- node.js
-- angular.js
 - git customizations
+- atom
 - alfred
   - [Re-Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd-space) - disable spotlight shortcut
   - Enable at startup
@@ -64,6 +52,7 @@
 - spideroak
 - spotify
 - skype
+- Sublime Text 2
 - UP 3d printing
 - utorrent
 - vagrant

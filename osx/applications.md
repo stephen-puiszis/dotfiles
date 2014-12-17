@@ -1,6 +1,7 @@
 ## Applications & Settings if Reinstall Needed
 
 - xcode
+  - xcode developer tools (see environment setup)
 - system preferences
   - [Enable File Vault disk encryption](http://support.apple.com/kb/HT4790)
   - Keyboard:
@@ -43,7 +44,6 @@
 - imageopti
 - itunes library
 - keynote
-- markdownlife
 - parallels access
 - parallels desktop 9
   - windows 7 x64

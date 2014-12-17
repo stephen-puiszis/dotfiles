@@ -1,6 +1,6 @@
 # Environment Setup
 
-Before anything do this:
+**Before doing anything**:
 
 - Install Xcode
 - Install Xcode command line tools (preferences > downloads) **Note: Don't install Ruby 1.9.3 before doing this, you might run into problems :(**
@@ -8,15 +8,20 @@ Before anything do this:
 ```bash
 xcode-select --install
 ```
+### iTerm 2
+- Install [iTerm2](http://iterm2.com/) and import preferences
 
-### Shell
-Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
-
-### Ruby & Rails Installtion Using Homebrew & RVM
+### Install Homebrew
 - Install [Homebrew](http://brew.sh/) and verify installation:
 ```bash
 brew doctor
 ```
+
+### Shell
+- Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
+Setup `.zsh` scripts
+
+### Ruby & Rails Installtion Using Homebrew & RVM
 - Install [RVM](http://rvm.io/rvm/install) and verify installation:
 ```bash
 rvm requirements
@@ -71,9 +76,9 @@ If you have issues authenticating after setting up SSH keys, it's likely because
 
 ### Setup Heroku Toolbelt
 
-https://toolbelt.heroku.com/
+- https://toolbelt.heroku.com/
 
-### Install Sublime Text
+### Install Sublime Text or Atom
 
 - Import Preferences
 - Install Fonts
@@ -108,6 +113,18 @@ brew install sqlite
 ```
 
 http://www.sqlite.org/download.html
+
+### R Installation 
+- https://davidsimpson.me/2013/02/26/installing-r-on-os-x/
+- https://xquartz.macosforge.org/landing/
+- https://www.nesono.com/node/355=
+- http://apple.stackexchange.com/questions/121401/how-do-i-install-r-on-os-x
+- http://www.sr.bham.ac.uk/~ajrs/R/r-getting_started.html
+
+### Node Installation
+```bash
+brew install node
+```
 
 ### Setup Using Boxen
 Boxen might not play well with RVM or Homebrew. I've also had issues installing Postgres with it, there are workarounds to this like using the [Postgres app](http://postgresapp.com/). Visit the [Boxen Github Pages for a full setup guide](https://github.com/boxen/our-boxen)

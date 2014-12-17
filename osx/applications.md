@@ -3,10 +3,16 @@
 - xcode
   - xcode developer tools (see environment setup)
 - system preferences
-  - [Enable File Vault disk encryption](http://support.apple.com/kb/HT4790)
+  - Security & Privacy
+    - Setup Firewall
+    - [Enable File Vault disk encryption](http://support.apple.com/kb/HT4790)
   - Keyboard:
     - Key Repeat: fast
     - Delay:      short
+    - Use all F1, F2 as standard function keys
+  - Time Machine
+  - Network
+    - Setup VPN
 - iterm 2
   - import prefs
 - sublime text 2
@@ -25,14 +31,13 @@
   - [Re-Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd-space) - disable spotlight shortcut
   - Enable at startup
 - atext
-  - setup shortcuts
+  - import shortcuts
 - bettersnap tool
   - Map shortcuts
 - chrome
   - Import Bookmarks and prefernces
-- citrix
+- cyberduck
 - displaylink
-- dash
 - dropbox
 - evernote
 - fonts
@@ -41,7 +46,8 @@
 - garmin ANT agent
 - harvest
 - iexplorer
-- imageopti
+- imageoptim
+- integrity / serenity 
 - itunes library
 - keynote
 - parallels access
@@ -53,11 +59,14 @@
     - ppt customizations
     - ppt wireframing
 - photoshop
+- screenhero
 - slack
 - spideroak
+- spotify
 - skype
 - UP 3d printing
 - utorrent
 - vagrant
+- wizard
 - write
 - wunderlist

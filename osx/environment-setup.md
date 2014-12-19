@@ -92,6 +92,11 @@ If you have issues authenticating after setting up SSH keys, it's likely because
 - Install Fonts
 - Import Custom Theme
 - Install Packages ([link](https://sublime.wbond.net/installation))
+- Add `export EDITOR="subl -w" # Add Sublime Text` to `.zshrc`
+- Symlink `subl` to Sublime Text 2 ([link](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os)):
+```bash
+ln -s /Applications/Sublime\ Text 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+```
 
 ### Postgres Installation
 ```bash

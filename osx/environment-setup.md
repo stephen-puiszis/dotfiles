@@ -109,15 +109,17 @@ Alternatively, use the [Postgres app](http://postgresapp.com/)
 ### Mysql Installation
 ```bash
 brew install mysql
+mysql --version
 ```
 
 - http://blog.joefallon.net/2013/10/install-mysql-on-mac-osx-using-homebrew/
 - http://dev.mysql.com/doc/refman/5.0/en/macosx-installation.html
 
-### SQLite3 Installation
+### SQLite Installation
 
 ```bash
 brew install sqlite
+sqlite --version
 ```
 
 http://www.sqlite.org/download.html
@@ -133,20 +135,12 @@ http://www.sqlite.org/download.html
 
 ```bash
 binaries=(
-  graphicsmagick
-  webkit2png
-  rename
-  zopfli
-  ffmpeg
-  sshfs
-  trash
   node
   ack
-  hub
   git
 )
-
-
+echo "installing binaries..."
+brew install ${binaries[@]}
 ```
 ### Setup Using Boxen
 Boxen might not play well with RVM or Homebrew. I've also had issues installing Postgres with it, there are workarounds to this like using the [Postgres app](http://postgresapp.com/). Visit the [Boxen Github Pages for a full setup guide](https://github.com/boxen/our-boxen)

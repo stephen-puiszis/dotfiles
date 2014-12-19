@@ -21,6 +21,14 @@ brew doctor
 - Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 Setup `.zsh` scripts
 
+### Install Git 
+```bash
+brew install git
+git --version
+```
+
+Make sure you are using the version of Git you just installed. If you're not, you are probably using OSX Git and you should add `export PATH="/usr/local/bin:$PATH"` to your `.bash-profile` or `.zshrc` [link](http://apple.stackexchange.com/questions/93002/how-to-properly-update-git-on-mac)
+
 ### Ruby & Rails Installtion Using Homebrew & RVM
 - Install [RVM](http://rvm.io/rvm/install) and verify installation:
 ```bash
@@ -121,11 +129,25 @@ http://www.sqlite.org/download.html
 - http://apple.stackexchange.com/questions/121401/how-do-i-install-r-on-os-x
 - http://www.sr.bham.ac.uk/~ajrs/R/r-getting_started.html
 
-### Node Installation
-```bash
-brew install node
-```
+### Node and Other Binaries
 
+```bash
+binaries=(
+  graphicsmagick
+  webkit2png
+  rename
+  zopfli
+  ffmpeg
+  sshfs
+  trash
+  node
+  ack
+  hub
+  git
+)
+
+
+```
 ### Setup Using Boxen
 Boxen might not play well with RVM or Homebrew. I've also had issues installing Postgres with it, there are workarounds to this like using the [Postgres app](http://postgresapp.com/). Visit the [Boxen Github Pages for a full setup guide](https://github.com/boxen/our-boxen)
 Start by opening up terminal and copy-pasting in each of the following commands, hitting enter after each line:

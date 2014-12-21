@@ -67,7 +67,7 @@ subl ~/.ssh/id_rsa.pub
 ssh -T git@github.com
 
 #set git config values
-git config --global user.name <naem>
+git config --global user.name <name>
 git config --global user.email <email>
 git config --global github.user <username>
 git config --global github.token <token>

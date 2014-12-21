@@ -130,6 +130,14 @@ sqlite --version
 http://www.sqlite.org/download.html
 
 ### R Installation 
+
+[xQuartz](https://xquartz.macosforge.org/) is a dependency of R and cannot be downloaded via Homebrew. 
+
+```bash
+brew tap homebrew/science
+brew install r
+```
+
 - https://davidsimpson.me/2013/02/26/installing-r-on-os-x/
 - https://xquartz.macosforge.org/landing/
 - https://www.nesono.com/node/355=

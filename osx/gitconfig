@@ -1,13 +1,24 @@
+[hub]
+  protocol = https
+
 [user]
-        user.name=stephen-puiszis
-        user.email=spuiszis@gmail.com
+  name = stephen-puiszis
+  email = spuiszis@gmail.com
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        ui = auto
+  ui = true
+  diff = true
+  status = true
+  branch = auto
 [alias]
-        co = checkout
-        cob = checkout -b
-        rh = reset HEAD
-        dc = diff --cached
+  s = status
+  co = checkout
+  cob = checkout -b
+  d = diff
+  dc = diff --cached
+  lo = log --oneline
+  rh = reset HEAD
+  po = remote update --prune
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true

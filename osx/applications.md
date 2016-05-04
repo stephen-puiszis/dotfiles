@@ -1,61 +1,71 @@
 ## Applications & Settings if Reinstall Needed
 
-- xcode
-  - xcode developer tools (see environment setup)
-- system preferences
-  - Security & Privacy
-    - Setup Firewall
-    - [Enable File Vault disk encryption](http://support.apple.com/kb/HT4790)
-  - Keyboard:
-    - Key Repeat: fast
-    - Delay:      short
-    - Use all F1, F2 as standard function keys
-  - Time Machine
-  - Network
-    - Setup VPN
-- git customizations
-- atom
-- alfred
-  - [Re-Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd-space) - disable spotlight shortcut
-  - Enable at startup
-- atext
-  - import shortcuts
-- bettersnap tool
-  - Map shortcuts
-- chrome
-  - Import Bookmarks and prefernces
-- cyberduck
-- displaylink
-- dropbox
-- evernote
-- fonts
-- flint
-- flux
-- garmin ANT agent
-- harvest
-- iexplorer
-- imageoptim
-- integrity / serenity 
-- itunes library
-- keynote
-- parallels access
-- parallels desktop 9
-  - windows 7 x64
-  - office 2013
-    - excel customizations
-    - excel TTS macros
-    - ppt customizations
-    - ppt wireframing
-- photoshop
-- screenhero
-- slack
-- spideroak
-- spotify
-- skype
-- Sublime Text 2
-- UP 3d printing
-- utorrent
-- vagrant
-- wizard
-- write
-- wunderlist
+- [ ] xcode
+- [ ] xcode developer tools (see environment setup)
+- [ ] system preferences
+  - [ ] Security & Privacy
+    - [ ] Setup Firewall
+    - [ ] [Enable File Vault disk encryption](http://support.apple.com/kb/HT4790)
+  - [ ] Keyboard:
+    - [ ] Key Repeat: fast
+    - [ ] Delay:      short
+    - [ ] Use all F1, F2 as standard function keys
+  - [ ] Time Machine
+  - [ ] Network
+    - [ ] Setup VPN
+- [ ] Import gitconfig
+- [ ] Atom 
+- [ ] Alfred
+  - [ ] [Re- [ ]Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd- [ ]space) - [ ] disable spotlight shortcut
+  - [ ] Enable at startup
+- [ ] atext
+  - [ ] import shortcuts
+- [ ] Bettersnap Tool
+  - [ ] Map shortcuts
+- [ ] Chrome, Firefox Developer Edition
+  - [ ] Import Bookmarks and prefernces
+- [ ] Cyberduck
+- [ ] Dash
+- [ ] Dropbox
+- [ ] Fonts
+- [ ] Flint
+- [ ] Flux
+- [ ] Garmin ANT agent
+- [ ] Gitx
+- [ ] GPG Keys
+- [ ] Harvest
+- [ ] Keybase
+- [ ] Keys
+  - [ ] Github
+  - [ ] AWS
+  - [ ] Keybase
+  - [ ] Others?
+- [ ] iexplorer
+- [ ] imageoptim
+- [ ] Integrity / Serentiy
+- [ ] iTunes Music
+- [ ] iTunes 
+- [ ] Keynote -
+- [ ] Mysql Workbench
+- [ ] Parallels
+  - [ ] windows 7 x64
+  - [ ] office 2013
+    - [ ] excel customizations
+    - [ ] excel TTS macros
+    - [ ] ppt customizations
+    - [ ] ppt wireframing
+- [ ] Photoshop
+- [ ] Postico
+- [ ] Screenhero
+- [ ] Slack
+- [ ] Spideroak
+- [ ] Spotify
+- [ ] Skype
+- [ ] Sketch
+- [ ] Sublime Text 2
+- [ ] Tableau
+- [ ] TunnelBear
+- [ ] Vagrant
+- [ ] Wizard
+- [ ] Write
+- [ ] Wunderlist

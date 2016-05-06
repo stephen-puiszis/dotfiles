@@ -161,14 +161,19 @@ brew install r
 
 ```bash
 binaries=(
-  node
   ack
   git
+  hub
+  node
+  phantomjs
+  redis
 )
 echo "installing binaries..."
 brew install ${binaries[@]}
 
 ```
+
+- [Hub for Github](https://hub.github.com/)
 
 ### Keybase
 

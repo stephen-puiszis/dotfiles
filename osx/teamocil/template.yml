@@ -1,0 +1,23 @@
+defaults: &defaults
+  root: ~/Documents/path-to-my-project
+
+windows:
+  - name: normal
+    <<: *defaults
+    panes:
+      - git status
+  - name: guard
+    <<: *defaults
+    panes:
+      - bundle exec guard
+  - name: rails-server
+    <<: *defaults
+    panes:
+      - rails s
+  - name: postgres
+    <<: *defaults
+    layout: main-vertical
+    panes:
+      - sidekiq
+      - postgres -D /usr/local/var/postgres
+      - redis-server

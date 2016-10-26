@@ -21,7 +21,8 @@
 #### Applications
 - [ ] Atom 
 - [ ] Alfred
-  - [ ] [Re- [ ]Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd- [ ]space) - [ ] disable spotlight shortcut
+  - [ ] [Re-Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd- [ ]space) 
+  - [ ] disable spotlight shortcut
   - [ ] Enable at startup
 - Avast
 - [ ] Bettersnap Tool
@@ -57,6 +58,8 @@
 - [ ] iTunes 
 - [ ] Keynote
 - [ ] Mysql Workbench
+- [ ] Omnifocus
+  - [ ] Start at startup
 - [ ] Parallels
   - [ ] windows 7 x64
   - [ ] office 2013

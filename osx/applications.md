@@ -14,16 +14,25 @@
   - [ ] Network
     - [ ] Setup VPN
 - [ ] Import gitconfig
+- [ ] SSH Keys
+- [ ] Software Licenses
+- [ ] LastPass
+
+#### Applications
 - [ ] Atom 
 - [ ] Alfred
   - [ ] [Re- [ ]Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd- [ ]space) - [ ] disable spotlight shortcut
   - [ ] Enable at startup
-- [ ] atext
-  - [ ] import shortcuts
+- Avast
 - [ ] Bettersnap Tool
   - [ ] Map shortcuts
 - [ ] Chrome, Firefox Developer Edition
   - [ ] Import Bookmarks and prefernces
+  - [ ] Extensions
+    - [ ] HTTPS Everywhere
+    - [ ] Pocket
+    - [ ] Ghostery
+    - [ ] Privacy Badger
 - [ ] Cyberduck
 - [ ] Dash
 - [ ] Dropbox
@@ -32,6 +41,7 @@
 - [ ] Flux
 - [ ] Garmin ANT agent
 - [ ] Gitx
+- [ ] Ghost 
 - [ ] GPG Keys
 - [ ] Harvest
 - [ ] Keybase
@@ -45,7 +55,7 @@
 - [ ] Integrity / Serentiy
 - [ ] iTunes Music
 - [ ] iTunes 
-- [ ] Keynote -
+- [ ] Keynote
 - [ ] Mysql Workbench
 - [ ] Parallels
   - [ ] windows 7 x64
@@ -58,14 +68,12 @@
 - [ ] Postico
 - [ ] Screenhero
 - [ ] Slack
-- [ ] Spideroak
 - [ ] Spotify
 - [ ] Skype
 - [ ] Sketch
-- [ ] Sublime Text 2
+- [ ] Sublime Tex
 - [ ] Tableau
 - [ ] TunnelBear
+- [ ] Ulysses
 - [ ] Vagrant
 - [ ] Wizard
-- [ ] Write
-- [ ] Wunderlist

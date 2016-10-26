@@ -164,7 +164,6 @@ binaries=(
   ack
   git
   hub
-  node
   phantomjs
   redis
 )
@@ -174,6 +173,20 @@ brew install ${binaries[@]}
 ```
 
 - [Hub for Github](https://hub.github.com/)
+- [Itermocil](https://github.com/TomAnthony/itermocil)
+
+**Itermocil Setup**
+
+### Node Setup
+
+- [Node Version Manager](https://github.com/creationix/nvm)
+
+```bash
+
+brew install node
+node --v
+npm --v
+```
 
 ### Keybase
 

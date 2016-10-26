@@ -165,6 +165,7 @@ binaries=(
   git
   hub
   phantomjs
+  pip
   redis
 )
 echo "installing binaries..."
@@ -187,6 +188,11 @@ brew install node
 node --v
 npm --v
 ```
+
+### AWS CLI
+
+[AWS CLI Github Repo](https://github.com/aws/aws-cli)
+
 
 ### Keybase
 

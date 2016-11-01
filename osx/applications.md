@@ -19,12 +19,10 @@
 - [ ] LastPass
 
 #### Applications
-- [ ] Atom 
 - [ ] Alfred
   - [ ] [Re-Map Spotlight to Alfred](http://support.alfredapp.com/kb:cmd- [ ]space) 
   - [ ] disable spotlight shortcut
   - [ ] Enable at startup
-- Avast
 - [ ] Bettersnap Tool
   - [ ] Map shortcuts
 - [ ] Chrome, Firefox Developer Edition
@@ -35,22 +33,16 @@
     - [ ] Ghostery
     - [ ] Privacy Badger
 - [ ] Cyberduck
-- [ ] Dash
 - [ ] Dropbox
 - [ ] Fonts
-- [ ] Flint
 - [ ] Flux
 - [ ] Garmin ANT agent
-- [ ] Gitx
+- [ ] Github Desktop
 - [ ] Ghost 
 - [ ] GPG Keys
 - [ ] Harvest
 - [ ] Keybase
 - [ ] Keys
-  - [ ] Github
-  - [ ] AWS
-  - [ ] Keybase
-  - [ ] Others?
 - [ ] iexplorer
 - [ ] imageoptim
 - [ ] Integrity / Serentiy
@@ -74,9 +66,10 @@
 - [ ] Spotify
 - [ ] Skype
 - [ ] Sketch
-- [ ] Sublime Tex
+- [ ] Sublime Text 
 - [ ] Tableau
 - [ ] TunnelBear
 - [ ] Ulysses
 - [ ] Vagrant
+- [ ] WhatsApp  
 - [ ] Wizard

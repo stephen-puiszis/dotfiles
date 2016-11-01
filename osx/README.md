@@ -117,6 +117,10 @@ ln -s /Applications/Sublime\ Text 2.app/Contents/SharedSupport/bin/subl /usr/loc
 ```bash
 brew install postgresql
 ```
+If you can't enter the psql session, try running:
+``
+createdb
+```
 
 And don't forget to update preferences. You'll also need to follow the [postgres upgrade guides](http://www.postgresql.org/docs/9.5/static/pgupgrade.html) to update any data, if necessary. 
 

@@ -9,7 +9,10 @@
 - Contacts
 - Messages
 - Push any branches
-- Export Wunderlist Tasks
+- Check downloads folder
+- Check desktop files
+- Export any data from important apps
+- SSH Keys
 
 # Environment Setup
 
@@ -21,6 +24,9 @@
 ```bash
 xcode-select --install
 ```
+
+**Note, you might be able to install this via the App Store as of Sierra.**
+
 ### iTerm 2
 - Install [iTerm2](http://iterm2.com/) and import preferences
 
@@ -30,7 +36,7 @@ xcode-select --install
 brew doctor
 ```
 
-### Shell
+### zshrc
 - Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 Setup `.zsh` scripts
 
@@ -42,31 +48,7 @@ git --version
 
 Make sure you are using the version of Git you just installed. If you're not, you are probably using OSX Git and you should add `export PATH="/usr/local/bin:$PATH"` to your `.bash-profile` or `.zshrc` [link](http://apple.stackexchange.com/questions/93002/how-to-properly-update-git-on-mac)
 
-### Ruby & Rails Installtion Using Homebrew & RVM
-- Install [RVM](http://rvm.io/rvm/install) and verify installation:
-```bash
-rvm requirements
-```
-- Start Installing Rubies using:
-```bash
-rvm install <ruby version>
-```
-- Install Rails amd verify installation
-```bash
-gem install rails
-rails -v
-```
-
-**Resources:**
-- http://dean.io/setting-up-a-ruby-on-rails-development-environment-on-mavericks/
-- https://gorails.com/setup/osx/10.9-mavericks
-- http://jeffcohenonline.com/installing-rails
-- http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx/ (Uses rbenv, not rvm)
-- http://www.computersnyou.com/2673/2013/10/install-ruby-rails-macos-x-mavericks-10-9-mysql-step-step/
-- http://mattzago.com/blog/2013/11/16/installing-rvm-on-mavericks
-- **http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac**
-
-### Setup Github
+### Setup Git & Github
 
 - [Follow this Github Guide](https://help.github.com/articles/generating-ssh-keys)
 
@@ -95,9 +77,29 @@ If you have issues authenticating after setting up SSH keys, it's likely because
 - [Set up Git](https://help.github.com/articles/set-up-git)
 - [Caching your Github password in git](https://help.github.com/articles/caching-your-github-password-in-git)
 
-### Setup Heroku Toolbelt
+### Ruby & Rails Installtion Using Homebrew & RVM
+- Install [RVM](http://rvm.io/rvm/install) and verify installation:
+```bash
+rvm requirements
+```
+- Start Installing Rubies using:
+```bash
+rvm install <ruby version>
+```
+- Install Rails amd verify installation
+```bash
+gem install rails
+rails -v
+```
 
-- https://toolbelt.heroku.com/
+**Resources:**
+- http://dean.io/setting-up-a-ruby-on-rails-development-environment-on-mavericks/
+- https://gorails.com/setup/osx/10.9-mavericks
+- http://jeffcohenonline.com/installing-rails
+- http://www.createdbypete.com/articles/ruby-on-rails-development-setup-for-mac-osx/ (Uses rbenv, not rvm)
+- http://www.computersnyou.com/2673/2013/10/install-ruby-rails-macos-x-mavericks-10-9-mysql-step-step/
+- http://mattzago.com/blog/2013/11/16/installing-rvm-on-mavericks
+- **http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac**
 
 ### Install Sublime Text or Atom
 
@@ -142,6 +144,47 @@ sqlite --version
 
 http://www.sqlite.org/download.html
 
+
+### Node and Other Binaries
+
+```bash
+binaries=(
+  ack
+  hub
+  phantomjs
+  pip
+  redis
+)
+echo "installing binaries..."
+brew install ${binaries[@]}
+
+```
+
+- [Hub for Github](https://hub.github.com/)
+
+### Node Installation
+
+- [Node Version Manager](https://github.com/creationix/nvm)
+
+```bash
+
+brew install node
+node --v
+npm --v
+```
+
+### AWS CLI
+
+[AWS CLI Github Repo](https://github.com/aws/aws-cli)
+
+### Setup Heroku Toolbelt
+
+- https://toolbelt.heroku.com/
+
+### Itermocil
+- [Itermocil](https://github.com/TomAnthony/itermocil)
+
+
 ### R Installation 
 
 [xQuartz](https://xquartz.macosforge.org/) is a dependency of R and cannot be downloaded via Homebrew. 
@@ -157,50 +200,5 @@ brew install r
 - http://apple.stackexchange.com/questions/121401/how-do-i-install-r-on-os-x
 - http://www.sr.bham.ac.uk/~ajrs/R/r-getting_started.html
 
-### Node and Other Binaries
 
-```bash
-binaries=(
-  ack
-  git
-  hub
-  phantomjs
-  pip
-  redis
-)
-echo "installing binaries..."
-brew install ${binaries[@]}
-
-```
-
-- [Hub for Github](https://hub.github.com/)
-- [Itermocil](https://github.com/TomAnthony/itermocil)
-
-**Itermocil Setup**
-
-### Node Setup
-
-- [Node Version Manager](https://github.com/creationix/nvm)
-
-```bash
-
-brew install node
-node --v
-npm --v
-```
-
-### AWS CLI
-
-[AWS CLI Github Repo](https://github.com/aws/aws-cli)
-
-
-### Keybase
-
-```bash
-brew install keybase
-```
-
-TODO: update private-key
-
-### 
 Inspired by this awesome environment setup guide: https://gist.github.com/g3d/2709563

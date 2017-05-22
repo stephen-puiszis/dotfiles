@@ -1,8 +1,39 @@
+[hub]
+  protocol = https
 [user]
-        user.name=stephen-puiszis
-        user.email=spuiszis@gmail.com
+    name = stephen-puiszis
+    email = 
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        ui = auto
+  ui = true
+  diff = true
+  status = true
+  branch = auto
+[credential]
+    helper = osxkeychain
+[alias]
+  s = status
+  co = checkout
+  cob = checkout -b
+  d = diff
+  dc = diff --cached
+  lo = log --oneline
+  rh = reset HEAD
+  po = remote update --prune
+  cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
+[http]
+    sslVerify = true
+[push]
+    default = simple
+[core]
+  editor = "subl -n -w"
+[diff]
+    compactionHeuristic = true
+[pager]
+    log = diff-highlight | less
+    show = diff-highlight | less
+    diff = diff-highlight | less

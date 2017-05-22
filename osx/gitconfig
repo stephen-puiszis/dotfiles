@@ -1,15 +1,15 @@
 [hub]
   protocol = https
 [user]
-    name = stephen-puiszis
-    email = 
+  name = stephen-puiszis
+  email = <EMAIL>
 [color]
   ui = true
   diff = true
   status = true
   branch = auto
 [credential]
-    helper = osxkeychain
+  helper = osxkeychain
 [alias]
   s = status
   co = checkout
@@ -22,18 +22,18 @@
   cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
 
 [filter "lfs"]
-    clean = git-lfs clean %f
-    smudge = git-lfs smudge %f
-    required = true
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
 [http]
-    sslVerify = true
+  sslVerify = true
 [push]
-    default = simple
+  default = simple
 [core]
   editor = "subl -n -w"
 [diff]
-    compactionHeuristic = true
+  compactionHeuristic = true
 [pager]
-    log = diff-highlight | less
-    show = diff-highlight | less
-    diff = diff-highlight | less
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less

@@ -2,7 +2,7 @@
 
 ### OSX Contents
 - Full Environment setup guide
-- Full Applicaiton List
+- Full Application List
 - Sublime Text custom settings and preferences
 - Iterm2 Preferences
 - .gitconfig

@@ -40,14 +40,26 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby brew rvm)
+plugins=(git ruby brew rvm nvm)
 
 source $ZSH/oh-my-zsh.sh
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export RVM_PATH="$HOME/.rvm"      # Path to RVM
+export NVM_PATH="$HOME/.nvm"      # Path to NVM
+export GEM_HOME="$RVM_PATH/gems"  # Gems
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+PATH=$PATH:$HOME/.rvm/bin                        # Add RVM to PATH for scripting
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Load NVM
 
-#Sublime Text Editor
-export EDITOR="subl -w"
+export PATH="$PATH:/usr/local/bin"
+export PATH="/usr/local/heroku/bin:$PATH" # Added by the Heroku Toolbelt
+
+export EDITOR="subl -w" # Sublime Text Editor
+
+# Android Emulator
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+export ANDROID_HOME="$ANDROID_SDK_ROOT"
+export ANDROID_NDK_HOME="$ANDROID_SDK_ROOT/ndk-bundle"
+export PATH="$PATH:$ANDROID_SDK_ROOT/emulator"
+export PATH="$PATH:$ANDROID_SDK_ROOT/tools"
+export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools"

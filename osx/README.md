@@ -5,7 +5,7 @@
 - Dropbox / Spider Oak
 - Email
 - Music / iTunes [how to backup](https://discussions.apple.com/thread/4152079?start=0&tstart=0)
-- iPhone 
+- iPhone
 - Contacts
 - Messages
 - Push any branches
@@ -40,7 +40,7 @@ brew doctor
 - Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 Setup `.zsh` scripts
 
-### Install Git 
+### Install Git
 ```bash
 brew install git
 git --version
@@ -109,20 +109,26 @@ rails -v
 - Install Packages ([link](https://sublime.wbond.net/installation))
 - Add `export EDITOR="subl -w" # Add Sublime Text` to `.zshrc`
 - Symlink `subl` to Sublime Text 2 ([link](http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os)):
+
 ```bash
 ln -s /Applications/Sublime\ Text 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
+https://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
+
 ### Postgres Installation
+
 ```bash
 brew install postgresql
 ```
+
 If you can't enter the psql session, try running:
-``
+
+```
 createdb
 ```
 
-And don't forget to update preferences. You'll also need to follow the [postgres upgrade guides](http://www.postgresql.org/docs/9.5/static/pgupgrade.html) to update any data, if necessary. 
+And don't forget to update preferences. You'll also need to follow the [postgres upgrade guides](http://www.postgresql.org/docs/9.5/static/pgupgrade.html) to update any data, if necessary.
 
 Alternatively, use the [Postgres app](http://postgresapp.com/)
 
@@ -131,6 +137,7 @@ Alternatively, use the [Postgres app](http://postgresapp.com/)
 - https://www.codefellows.org/blog/how-to-install-postgresql
 
 ### Mysql Installation
+
 ```bash
 brew install mysql
 mysql --version
@@ -149,12 +156,12 @@ sqlite --version
 http://www.sqlite.org/download.html
 
 
-### Node and Other Binaries
+### Important Binaries
 
 ```bash
 binaries=(
   ack
-  hub
+  tree
   phantomjs
   pip
   redis
@@ -164,34 +171,20 @@ brew install ${binaries[@]}
 
 ```
 
-- [Hub for Github](https://hub.github.com/)
-
 ### Node Installation
 
-- [Node Version Manager](https://github.com/creationix/nvm)
+Install via [Node Version Manager](https://github.com/creationix/nvm)
 
-```bash
+### Other Stuff
 
-brew install node
-node --v
-npm --v
-```
-
-### AWS CLI
-
-[AWS CLI Github Repo](https://github.com/aws/aws-cli)
-
-### Setup Heroku Toolbelt
-
-- https://toolbelt.heroku.com/
-
-### Itermocil
+- [AWS CLI](https://github.com/aws/aws-cli)
 - [Itermocil](https://github.com/TomAnthony/itermocil)
+- [Heroku Toolbelt](https://toolbelt.heroku.com/)
+- [Hub for Github](https://hub.github.com/)
 
+### R Installation
 
-### R Installation 
-
-[xQuartz](https://xquartz.macosforge.org/) is a dependency of R and cannot be downloaded via Homebrew. 
+[xQuartz](https://xquartz.macosforge.org/) is a dependency of R and cannot be downloaded via Homebrew.
 
 ```bash
 brew tap homebrew/science

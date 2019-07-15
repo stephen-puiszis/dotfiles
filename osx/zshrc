@@ -25,7 +25,25 @@ export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools"
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$GEM_HOME/bin:$PATH"
 
+#### Docker Stuff ###################################
+
+# Find a docker-container, and attach to it
+# To detach, by default this is Ctrl-P/Ctrl-Q
+# but most people think that Control-C should do it, so we set that
+# Ref: https://docs.docker.com/engine/reference/commandline/attach
+#
+# Note: in order to attach to a container, you must have it started
+# with docker-compose settings:
+# app:
+#   tty: true
+#   stdin_open: true
+function docker-compose-attach() {
+  docker attach $(docker-compose ps -q $1) --detach-keys="ctrl-c";
+}
+
+alias dockerc='docker-compose'
+alias dockerc-attach='docker-compose-attach'
+alias dockerc-attach='docker-compose-attach'
 
 # Helpful Aliases
-
 alias whatismyip="dig +short myip.opendns.com @resolver1.opendns.com"

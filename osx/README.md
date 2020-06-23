@@ -40,6 +40,21 @@ brew doctor
 - Install [zshell](https://github.com/robbyrussell/oh-my-zsh)
 Setup `.zsh` scripts
 
+### Important Homebrew-supported binaries that don't need specialized setup
+
+```bash
+binaries=(
+  ack
+  tree
+  phantomjs
+  pip
+  redis
+)
+echo "installing binaries..."
+brew install ${binaries[@]}
+
+```
+
 ### Install Git
 ```bash
 brew install git
@@ -155,21 +170,6 @@ sqlite --version
 
 http://www.sqlite.org/download.html
 
-
-### Important Binaries
-
-```bash
-binaries=(
-  ack
-  tree
-  phantomjs
-  pip
-  redis
-)
-echo "installing binaries..."
-brew install ${binaries[@]}
-
-```
 
 ### Node Installation
 

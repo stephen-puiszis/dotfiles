@@ -2,7 +2,7 @@
 
 **Backup the following before doing anything**
 - Chrome Bookmarks
-- Dropbox / Spider Oak
+- Dropbox, Box, etc.
 - Email
 - Music / iTunes [how to backup](https://discussions.apple.com/thread/4152079?start=0&tstart=0)
 - iPhone
@@ -115,6 +115,25 @@ rails -v
 - http://www.computersnyou.com/2673/2013/10/install-ruby-rails-macos-x-mavericks-10-9-mysql-step-step/
 - http://mattzago.com/blog/2013/11/16/installing-rvm-on-mavericks
 - **http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac**
+
+
+### Python Installation via `pyenv` and Homebrew
+
+Follow this guide: https://opensource.com/article/19/5/python-3-default-mac
+
+```bash
+brew install pyenv
+```
+
+Then, add this to `~/.zshrc`
+
+```bash
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+```
+
+https://opensource.com/article/19/5/python-3-default-mac
 
 ### Install Sublime Text or Atom
 

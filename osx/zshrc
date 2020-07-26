@@ -68,6 +68,7 @@ alias dockerc-attach='docker-compose-attach'
 
 # Helpful Aliases
 alias whatismyip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias reload-zshrc=". ~/.zshrc"   # Reloads shell session
 
 # Yarn configuration
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

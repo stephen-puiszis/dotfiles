@@ -4,9 +4,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git ruby brew rvm nvm)
 
 source $ZSH/oh-my-zsh.sh
-export RVM_PATH="$HOME/.rvm"      # Path to RVM
-export GEM_HOME="$RVM_PATH/gems"  # Gems
-export EDITOR="subl -w" # Sublime Text Editor
+export EDITOR="code --wait" # VS Code
 
 # python and pyenv config
 if command -v pyenv 1>/dev/null 2>&1; then
